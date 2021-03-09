@@ -1,0 +1,16 @@
+{
+  "name": "primeone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass style.scss style.css",
+    "devserver": "live-server"
+  },
+  "author": "gaya",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

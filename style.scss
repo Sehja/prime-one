@@ -245,7 +245,7 @@ body {
     &-container_img1 {
         max-width: 100%;
         height: 200px;
-        background: url('/images/food_small1.jpg') center center/cover no-repeat;
+        background: url('./images/food_small1.jpg') center center/cover no-repeat;
 
         @media (max-width: 768) {}
     }
@@ -253,19 +253,19 @@ body {
     &-container_img2 {
         width: 100%;
         height: 200px;
-        background: url('/images/food_small2.jpg') center center/cover no-repeat;
+        background: url('./images/food_small2.jpg') center center/cover no-repeat;
     }
 
     &-container_img3 {
         width: 100%;
         height: 200px;
-        background: url('/images/food_small3.jpg') center center/cover no-repeat;
+        background: url('./images/food_small3.jpg') center center/cover no-repeat;
     }
 
     &-container_img4 {
         width: 100%;
         height: 200px;
-        background: url('/images/food_small4.jpg') center center/cover no-repeat;
+        background: url('./images/food_small4.jpg') center center/cover no-repeat;
     }
 
     &-title {
@@ -544,12 +544,12 @@ body {
 
 
         &_link-a {
-            background: url(/icons/map.png) left no-repeat;
+            background: url(./icons/map.png) left no-repeat;
             object-fit: fill;
         }
 
         &_link-t {
-            background: url(/icons/telephone.png) left no-repeat;
+            background: url(./icons/telephone.png) left no-repeat;
 
             @media (max-width: 480px) {
                 letter-spacing: 2px;
@@ -557,7 +557,7 @@ body {
         }
 
         &_link-m {
-            background: url(/icons/email.png) left no-repeat;
+            background: url(./icons/email.png) left no-repeat;
         }
 
         &_social {

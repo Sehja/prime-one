@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass style.scss style.css",
-    "devserver": "live-server"
+    "devserver": "live-server",
+    "compile:sass": "node-sass style.scss style.css"
   },
   "author": "gaya",
   "license": "ISC",
